@@ -1,0 +1,86 @@
+* {margin:0;padding:0;}
+
+body { background-color: white; }
+#page {width:940px;margin:0 auto;}
+
+
+header .logo {float:left;}
+header .logo img {margin:23px 0px 15px 0px;}
+
+nav {clear:both;height:60px;background-color:#759fff;border-radius:8px 8px 0px 0px;}
+nav ul {list-style:none;}
+nav ul li {float:left;margin:17px 20px;font-size:20px;font-family:'Georgia';font-style:italic;}
+nav ul li a {color:#f7f6c5;text-decoration:none;}
+nav ul li a:hover {text-decoration:underline;}
+
+.header_img {height:435px;background-color:#759fff;border-radius:0px 0px 8px 8px;margin-bottom:15px;}
+
+#content {clear:both;}
+#content h1 {margin:20px;font-size:28px;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
+#content p {margin-bottom:15px;}
+#content h3 {margin:20px;font-size:28px;color:#0000ff;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
+
+caption {margin:20px;font-size:30px;}
+
+#categoris1 ol li {margin:10px;font-size:20px;font-family:'Georgia';font-style:italic;}
+#categoris1 ol li a {color:#0000ff;text-decoration:none;}
+#categoris1 ol li a:hover {text-decoration:underline;}
+
+#content2 {clear:both;}
+#content2 h2 {margin:20px;font-size:28px;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
+#content2 h2 a{color:#0000ff;text-decoration:none;}
+#content2 h2 a:hover {text-decoration:underline;}
+
+#content3 h1 {text-align:center;margin:20px;font-size:32px;font-family:'Georgia';font-style:italic;font-weight:normal;margin-bottom:20px;}
+
+#cover .carim {float:left;}
+#cover .carim img {margin:23px 0px 15px 0px;}
+
+table {width: 100%;margin:10px}
+td { padding: 10px;}
+
+.text p {margin:10px; margin-bottom:10px 0 5px 5px;float: right;}
+.read a {position:absolute;left:15px}
+
+#categoris ul {list-style:none;}
+#categoris ul li {margin:10px;font-size:20px;font-family:'Georgia';font-style:italic;}
+#categoris ul li a {color:#000000;text-decoration:none;}
+#categoris ul li a:hover {text-decoration:underline;}
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:25px;
+left:25px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+}
+
+.news{
+width:170px;
+height:340px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+position:fixed;
+top:25px;
+left:1px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+}
+
+.news li{padding:5px;}
+.news li a{color:#000000;text-decoration:none;}
+.news li a:hover {text-decoration:underline;}
+
+footer {clear:both;border-top:4px #027fd5 solid;margin-top:30px;padding:15px 0px;font-size:12px;}
